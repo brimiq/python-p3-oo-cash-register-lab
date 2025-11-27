@@ -18,6 +18,7 @@ class CashRegister:
         self.last_transaction_amount = total_price
         self.last_transaction_quantity = quantity
         self.last_transaction_title = title
+        
 
     def apply_discount(self):
         if self.discount != 0:
